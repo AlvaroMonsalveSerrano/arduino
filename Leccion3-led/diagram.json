@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "author": "AMS-1",
+  "editor": "wokwi",
+  "parts": [ { "id": "mega", "type": "wokwi-arduino-mega" } ],
+  "connections": []
+}

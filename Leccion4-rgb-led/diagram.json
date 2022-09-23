@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "author": "AMS",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-mega", "id": "mega", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-rgb-led", "id": "rgb1", "top": 260.53, "left": 334.38, "attrs": {} },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 371.78,
+      "left": 228.97,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r2",
+      "top": 416.2,
+      "left": 225.86,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r3",
+      "top": 450.49,
+      "left": 232.87,
+      "attrs": { "value": "220" }
+    }
+  ],
+  "connections": [
+    [ "r1:2", "rgb1:R", "green", [ "h53.36", "v-76.25" ] ],
+    [ "r2:2", "rgb1:G", "green", [ "h75.17", "v-116.67" ] ],
+    [ "r3:2", "rgb1:B", "green", [ "h79.85", "v-155.96" ] ],
+    [ "r1:1", "mega:3", "green", [ "v0" ] ],
+    [ "r2:1", "mega:5", "green", [ "h-16.02", "v-416.2" ] ],
+    [ "r3:1", "mega:6", "green", [ "h-33.29", "v-450.49" ] ],
+    [ "mega:5V", "rgb1:COM", "red", [ "v0" ] ]
+  ]
+}
