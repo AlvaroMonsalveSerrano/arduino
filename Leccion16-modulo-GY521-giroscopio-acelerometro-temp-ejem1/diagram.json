@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-mega", "id": "mega", "top": -84.78, "left": -1.48, "attrs": {} },
+    { "type": "wokwi-mpu6050", "id": "imu1", "top": 177.77, "left": 182.35, "attrs": {} }
+  ],
+  "connections": [
+    [ "imu1:VCC", "mega:3.3V", "red", [ "v-31.56", "h-103.72" ] ],
+    [ "imu1:GND", "mega:GND.2", "black", [ "v-39.94", "h-74.87" ] ],
+    [ "imu1:SCL", "mega:21", "green", [ "v-19.24", "h192.43", "v-258.25", "h-93.96" ] ],
+    [ "imu1:SDA", "mega:20", "gold", [ "v-26.14", "h221.74", "v-260.71", "h-123.17" ] ]
+  ]
+}

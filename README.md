@@ -16,8 +16,10 @@ La lista de proyectos son los siguientes:
 8.- **Leccion11-conmutador-membrana.-** Ejemplo base de la documentación de Elegoo de un conmutador de membrana.
 9.- **Leccion12-sensor-humedad-temperatura.-** Ejemplo base de la documentación de Elegoo de un sensor de humedad y temperatura.
 9.-**Leccion14-modulo-ir.-** Ejemplo base de la documentación de Elegoo de un módulo ir(mando remoto).
-10.-**Leccion17-pir-sensor-movimiento.-** Ejemplo base de la documentación de Elegoo de un sensor de movimiento.
-11.-**Leccion19-reloj-en-tiempo-real.-** Ejemplo base de la documentación de Elegoo de un sensor de tiempo.
-12.-**Leccion20-pantalla-LCD-1.-**Ejemplo base de la documentación de Elegoo de escritura en una pantalla LCD
-13.-**Leccion20-pantalla-LCD-2-caracter-especial.-** Ejemplo base de la documentación de Elegoo de escritura de un carácter especial en una pantalla LCD.
-14.-**Leccion20-pantalla-LCD-3**.-Ejemplo base de la documentación de Elegoo de escritura de un carácter especial en una pantalla LCD.
+10.-**Leccion16-modulo-GY521-giroscopio-acelerometro-temp-ejem1.-** Ejemplo base de la documentación de Elegoo del sensor GY521.
+11.-**Leccion16-modulo-GY521-giroscopio-acelerometro-temp-ejem2.-** Ejemplo base de la documentación de Elegoo del sensor GY521.
+12.-**Leccion17-pir-sensor-movimiento.-** Ejemplo base de la documentación de Elegoo de un sensor de movimiento.
+13.-**Leccion19-reloj-en-tiempo-real.-** Ejemplo base de la documentación de Elegoo de un sensor de tiempo.
+14.-**Leccion20-pantalla-LCD-1.-**Ejemplo base de la documentación de Elegoo de escritura en una pantalla LCD
+15.-**Leccion20-pantalla-LCD-2-caracter-especial.-** Ejemplo base de la documentación de Elegoo de escritura de un carácter especial en una pantalla LCD.
+16.-**Leccion20-pantalla-LCD-3**.-Ejemplo base de la documentación de Elegoo de escritura de un carácter especial en una pantalla LCD.
