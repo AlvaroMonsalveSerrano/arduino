@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-mega", "id": "mega", "top": -19.33, "left": 120, "attrs": {} },
+    { "type": "wokwi-ir-receiver", "id": "ir1", "top": -152.37, "left": 301.99, "attrs": {} },
+    { "type": "wokwi-ir-remote", "id": "remote1", "top": -109.69, "left": -117.35, "attrs": {} }
+  ],
+  "connections": [
+    [ "ir1:GND", "mega:GND.1", "black", [ "v20.66", "h-83.97" ] ],
+    [ "ir1:VCC", "mega:5V", "red", [ "v9.32", "h-251.9", "v276.68", "h203.83" ] ],
+    [ "ir1:DAT", "mega:2", "green", [ "v11.99", "h16.5", "v42.3" ] ]
+  ]
+}

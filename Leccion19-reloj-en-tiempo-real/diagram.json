@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-mega", "id": "mega", "top": 44.66, "left": -62, "attrs": {} },
+    { "type": "wokwi-ds1307", "id": "rtc1", "top": -123.48, "left": 73.84, "attrs": {} }
+  ],
+  "connections": [
+    [ "mega:5V", "rtc1:5V", "red", [ "v30.43", "h-233.99", "v-358.74" ] ],
+    [ "mega:GND.2", "rtc1:GND", "black", [ "v51.76", "h-267.74", "v-390.07" ] ],
+    [ "mega:20", "rtc1:SDA", "orange", [ "v-31.41", "h-244.16", "v-111.9" ] ],
+    [ "mega:21", "rtc1:SCL", "green", [ "v-55.41", "h-232.32", "v-78.66", "h40.83" ] ]
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-mega", "id": "mega", "top": 106.56, "left": 54.84, "attrs": {} },
+    { "type": "wokwi-lcd1602", "id": "lcd1", "top": -193.4, "left": 92.36, "attrs": {} },
+    { "type": "wokwi-potentiometer", "id": "pot1", "top": -41.83, "left": 429.58, "attrs": {} },
+    {
+      "type": "wokwi-ntc-temperature-sensor",
+      "id": "ntc1",
+      "top": -68,
+      "left": -149.6,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [ "mega:5V", "lcd1:VDD", "red", [ "v74.87", "h-239.17", "v-308", "h143.5" ] ],
+    [ "mega:GND.1", "lcd1:VSS", "black", [ "v-70.3", "h-59.67" ] ],
+    [ "mega:GND.1", "lcd1:RW", "black", [ "v-69.63", "h-21.17" ] ],
+    [ "mega:GND.1", "lcd1:K", "black", [ "v-68.96", "h84.33" ] ],
+    [ "mega:10", "lcd1:D4", "green", [ "v0" ] ],
+    [ "mega:9", "lcd1:D5", "#8f4814", [ "v0" ] ],
+    [ "mega:8", "lcd1:D6", "orange", [ "v0" ] ],
+    [ "mega:7", "lcd1:D7", "gold", [ "v0" ] ],
+    [ "mega:11", "lcd1:E", "violet", [ "v-43.63", "h-39.34" ] ],
+    [ "mega:12", "lcd1:RS", "blue", [ "v-30.96", "h-48.84" ] ],
+    [ "mega:5V", "pot1:VCC", "red", [ "v47.46", "h245.58" ] ],
+    [ "pot1:SIG", "lcd1:A", "gray", [ "v40.23", "h-212.57" ] ],
+    [ "mega:GND.1", "pot1:GND", "black", [ "v-68.83", "h282.72" ] ],
+    [ "mega:5V", "ntc1:VCC", "red", [ "v75.29", "h-207.19", "v-398.55" ] ],
+    [ "mega:GND.1", "ntc1:GND", "black", [ "v-69.86", "h-64.73", "v-87.5" ] ],
+    [ "mega:A0", "ntc1:OUT", "white", [ "v30.97", "h-262.27", "v-344.53" ] ]
+  ]
+}
