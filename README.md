@@ -6,6 +6,8 @@ Los proyectos han sido realizados en la plataforma de simulación Wokwi(https://
 
 La lista de proyectos son los siguientes:
 
++ Realizados en Wokwi:
+
 1. **Leccion2-led-serie.-** Ejemplo base de la documentación de Elegoo de un led en serie.
 2.- **Leccion3-led.-** Ejemplo base de la documentación de Elegoo de un led conectado a Arduino.
 3.- **Leccion4-rgb-led.-** Ejemplo base de la documentación de Elegoo de un led RGB.
@@ -23,3 +25,10 @@ La lista de proyectos son los siguientes:
 14.-**Leccion20-pantalla-LCD-1.-**Ejemplo base de la documentación de Elegoo de escritura en una pantalla LCD
 15.-**Leccion20-pantalla-LCD-2-caracter-especial.-** Ejemplo base de la documentación de Elegoo de escritura de un carácter especial en una pantalla LCD.
 16.-**Leccion20-pantalla-LCD-3**.-Ejemplo base de la documentación de Elegoo de escritura de un carácter especial en una pantalla LCD.
+
++ Realizados con equipo físico:
+
+1.- **ampliar-puertos-serie-74hc595-ejem1.-** Ejemplo de uso de puerto serie.
+2.- **ampliar-puertos-serie-74hc595-ejem2-puerto-serie.-** Ejemplo de uso de puerto serie.
+3.- **Bluetooth-ejem1-basic.-** Ejemplo de uso de tarjeta Bluetooth en Arduino.
+4.- ****Bluetooth-ejem1-basic.-** Ejemplo de uso de tarjeta Bluetooth en Arduino.
