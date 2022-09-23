@@ -31,4 +31,14 @@ La lista de proyectos son los siguientes:
 1.- **ampliar-puertos-serie-74hc595-ejem1.-** Ejemplo de uso de puerto serie.
 2.- **ampliar-puertos-serie-74hc595-ejem2-puerto-serie.-** Ejemplo de uso de puerto serie.
 3.- **Bluetooth-ejem1-basic.-** Ejemplo de uso de tarjeta Bluetooth en Arduino.
-4.- ****Bluetooth-ejem1-basic.-** Ejemplo de uso de tarjeta Bluetooth en Arduino.
+4.- **Bluetooth-ejem1-basic.-** Ejemplo de uso de tarjeta Bluetooth en Arduino.
+5.- **Display-8-segmentos.-** Ejemplo de uso de un display de 8 segmentos.
+6.- **fotocelula-ejem1.-** Ejemplo de uso de una fotocélula.
+7.- **Interruptor-Inclinacion-Ejem1.-** Ejemplo de uso de un interruptor por inclinación.
+8.- **MotorCorrienteContinua.-** Ejemplo de uso de un motor de corriente contínua.
+9.- **MotorPasoAPaso.-** Ejemplo de uso de un motor paso a paso.
+10.- **MotorPasoAPasoConCdificador.-** Ejemplo de uso de un motor paso a paso con codificador.
+11.- **pantalla-lcd-ejem1.-** Ejemplo básico de pantalla LCD.
+12.- **pantalla-lcd-ejem2-leccion23.-** Ejemplo básico de pantalla LCD correspondiente a la lección 23 de la documentación de Elegoo.
+13.- **Sensor-Agua-Ejem1.-** Ejemplo básico de uso de un sensor de agua.
+14.- **Sensor-Sonido-Ejem1.-** Ejemplo básico de uso de un sensor de sonido.
